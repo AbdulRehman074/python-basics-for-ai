@@ -1,0 +1,21 @@
+num_users = int(input("How many users’ data do you want to enter? "))
+data = []
+
+for i in range(num_users):
+    print(f"\nEntering data for user {i+1}:")
+    name = input("Enter your name: ")
+    age = int(input("Enter your age: "))
+    fav_topic = input("Enter your favourite AI topic: ")
+    study_hrs = float(input("How many hours you study per day? "))
+
+    user_data = {
+        "Name": name,
+        "Age": age,
+        "Favourite Topic": fav_topic,
+        "Study Hours": study_hrs
+    }
+    data.append(user_data)
+print("\n📊 Collected AI Data:")
+for user in data:
+    print(f"👤 {user['Name']} | Age: {user['Age']} | Topic: {user['Favourite Topic']} | Study Hours: {user['Study Hours']}")
+print("\nThank you for sharing your data, future AI engineer! 🚀")
