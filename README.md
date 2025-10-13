@@ -12,7 +12,7 @@ Foundational Python projects created while revising and learning Python for Arti
 | 2 | AI Data Input Collector | Input Handling, Strings, Type Conversion |
 | 3 | Sum and Average Calculator | Loops, Type Casting, Exception Handling |
 | 4 | Number Guessing Game | While Loops, Conditional Logic, Comparison |
-
+| 5 | Daily Study Tracker |Function structure, Input validation, Looping and summary creation |
 ---
 
 ## 🎯 Purpose
