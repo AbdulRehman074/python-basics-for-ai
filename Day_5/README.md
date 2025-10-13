@@ -1,4 +1,4 @@
-# 🧠 Day 3 — Daily Study Tracker
+# 🧠 Day 5 — Daily Study Tracker
 
 This Python program lets users record their daily study activity.  
 It demonstrates:
