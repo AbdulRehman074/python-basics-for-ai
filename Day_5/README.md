@@ -1,4 +1,5 @@
 # 🧠 Day 5 — Daily Study Tracker
+Simple and easy for beginners to practice!
 
 This Python program lets users record their daily study activity.  
 It demonstrates:
