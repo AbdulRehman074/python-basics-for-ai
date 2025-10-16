@@ -12,3 +12,4 @@ It demonstrates:
 2. Validates hours (must be non-negative).
 3. Prints a study summary.
 4. Optionally allows multiple entries in one run.
+Note: This is a basic level project for begginers, You can enhance it according to your knowledge.
