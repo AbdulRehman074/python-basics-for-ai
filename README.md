@@ -14,6 +14,7 @@ Foundational Python projects created while revising and learning Python for Arti
 | 4 | Number Guessing Game | While Loops, Conditional Logic, Comparison |
 | 5 | Daily Study Tracker |Function structure, Input validation, Looping and summary creation |
 | 6 | Student Result Calculator |Data Structures (Lists, Tuples, Sets, Dictionaries) |
+| 7 | Text Cleaner & Analyzer |String Handling and Analysis |
 ---
 ## 🎯 Purpose
 
