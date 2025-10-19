@@ -1,0 +1,50 @@
+# --- Text Cleaner & Analyzer ---
+# This program cleans, standardizes, and analyzes a user’s text input.
+# It demonstrates string manipulation methods: strip(), replace(), lower(), count(), etc.
+
+def clean_text(text):
+    """Removes extra spaces and standardizes case."""
+    text = text.strip()  # Remove leading/trailing spaces
+    text = " ".join(text.split())  # Remove extra internal spaces
+    return text
+
+def replace_keywords(text):
+    """Replace common AI terms with full forms."""
+    replacements = {
+        "ai": "Artificial Intelligence",
+        "ml": "Machine Learning",
+        "dl": "Deep Learning"
+    }
+    for key, value in replacements.items():
+        text = text.replace(key, value)
+        text = text.replace(key.upper(), value)
+        text = text.replace(key.capitalize(), value)
+    return text
+
+def analyze_text(text, keyword):
+    """Counts how many times a keyword appears in the text (case-insensitive)."""
+    return text.lower().count(keyword.lower())
+
+def main():
+    print("🔹 Text Cleaner & Analyzer 🔹")
+    user_text = input("Enter your text: ")
+    keyword = input("Enter a keyword to count (e.g., AI, ML, etc.): ")
+
+    # Step 1: Clean the text
+    cleaned_text = clean_text(user_text)
+
+    # Step 2: Replace common AI terms
+    processed_text = replace_keywords(cleaned_text)
+
+    # Step 3: Count keyword occurrences
+    keyword_count = analyze_text(processed_text, keyword)
+
+    # Step 4: Show results
+    print("\n--- Results ---")
+    print(f"🧼 Cleaned Text:\n{processed_text}")
+    print(f"🔍 '{keyword}' appears {keyword_count} time(s) in the text.")
+    print("----------------")
+    print("✨ Text analysis complete! Keep learning daily 💪")
+
+if __name__ == "__main__":
+    main()
