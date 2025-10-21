@@ -1,4 +1,4 @@
-# 🧠 Text Cleaner & Analyzer
+# 🧠 Text Cleaner & Analyzer in Python 
 
 ### 📅 Day 7 — String Manipulation Project 
 
