@@ -1,6 +1,6 @@
 # 🧠 Text Cleaner & Analyzer in Python 
 
-### 📅 Day 7 — String Manipulation Project. 
+### 📅 Day 7 — String Manipulation Project.
 
 This project demonstrates **string handling and analysis in Python**, covering key methods such as:
 - `strip()`, `split()`, and `replace()` for text cleaning.
