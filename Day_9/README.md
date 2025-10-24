@@ -1,4 +1,4 @@
-# 🧮 Error-Proof Calculator (Day 8 — Python Error Handling)
+# 🧮 Error-Proof Calculator 
 
 ### 🎯 Overview
 A beginner-friendly calculator designed to **never crash**, even if the user enters invalid input or divides by zero.  
