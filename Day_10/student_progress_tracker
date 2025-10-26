@@ -1,0 +1,63 @@
+class Student:
+    def __init__(self, name, age, course):
+        self.name = name
+        self.age = age
+        self.course = course
+        self.marks = []
+    
+    def introduce(self):
+        print(f"My name is {self.name}, I'm {self.age} years old and I study {self.course}.")
+    
+    def add_marks(self, new_marks):
+        self.marks.extend(new_marks)
+        print(f"{self.name}'s marks have been updated: {self.marks}")
+    
+    def calculate_average(self):
+        if not self.marks:
+            return 0
+        return sum(self.marks) / len(self.marks)
+    
+    def show_progress(self):
+        avg = self.calculate_average()
+        if avg >= 80:
+            level = "Excellent 🌟"
+        elif avg >= 60:
+            level = "Good 👍"
+        else:
+            level = "Needs Improvement 📘"
+        print(f"{self.name}'s average is {avg:.2f} — {level}")
+    
+    def compare_progress(self, other_student):
+        if self.calculate_average() > other_student.calculate_average():
+            print(f"{self.name} is performing better than {other_student.name}. 💪")
+        elif self.calculate_average() < other_student.calculate_average():
+            print(f"{other_student.name} is performing better than {self.name}. 🚀")
+        else:
+            print(f"Both {self.name} and {other_student.name} are performing equally! ⚖️")
+
+
+def main():
+    print("🎓 Student Progress Tracker 🎓")
+    
+    # Create student objects
+    s1 = Student("Abdul", 19, "AI")
+    s2 = Student("Ali", 20, "Data Science")
+    
+    # Introduce both
+    s1.introduce()
+    s2.introduce()
+    
+    # Add marks
+    s1.add_marks([80, 90, 85])
+    s2.add_marks([70, 75, 65])
+    
+    # Show progress
+    s1.show_progress()
+    s2.show_progress()
+    
+    # Compare both
+    s1.compare_progress(s2)
+
+
+if __name__ == "__main__":
+    main()
