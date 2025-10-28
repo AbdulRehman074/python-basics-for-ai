@@ -15,6 +15,10 @@ Foundational Python projects created while revising and learning Python for Arti
 | 5 | Daily Study Tracker |Function structure, Input validation, Looping and summary creation |
 | 6 | Student Result Calculator |Data Structures (Lists, Tuples, Sets, Dictionaries) |
 | 7 | Text Cleaner & Analyzer |String Handling and Analysis |
+| 8 | Students notes managers | File Handling |
+| 9 | Error proof calculator | Error Handling (try-except) |
+| 10 | Student progress tracker |OOP (Classes, Objects, Inheritance) |
+| 11 | Student Record Manager |All concepts |
 ---
 ## 🎯 Purpose
 
