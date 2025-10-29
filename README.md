@@ -4,7 +4,7 @@ Foundational Python projects created while revising and learning Python for Arti
 
 ---
 
-## 📅 Progress Overview
+## 📅 Progress Overview 
 
 | Day | Project | Topics Covered |
 |-----|----------|----------------|
