@@ -18,7 +18,7 @@ Foundational Python projects created while revising and learning Python for Arti
 | 8 | Students notes managers | File Handling |
 | 9 | Error proof calculator | Error Handling (try-except) |
 | 10 | Student progress tracker |OOP (Classes, Objects, Inheritance) |
-| 11 | Student Record Manager |All concepts |
+| 11 | Student Record Manager |All concepts. |
 ---
 ## 🎯 Purpose
 
