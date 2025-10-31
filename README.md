@@ -6,7 +6,7 @@ Foundational Python projects created while revising and learning Python for Arti
 
 ## 📅 Progress Overview 
 
-| Day | Project | Topics Covered |
+| Day | Project | Topics Covered | 
 |-----|----------|----------------|
 | 1 | Temperature Converter | Variables, User Input, Mathematical Operations |
 | 2 | AI Data Input Collector | Input Handling, Strings, Type Conversion |
