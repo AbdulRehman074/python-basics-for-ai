@@ -1,10 +1,10 @@
-# 🧠 Python Basics for AI
+#  Python Basics for AI
 
 Foundational Python projects created while revising and learning Python for Artificial Intelligence and Machine Learning.
 
 ---
 
-## 📅 Progress Overview 
+##  Progress Overview 
 
 | Day | Project | Topics Covered | 
 |-----|----------|----------------|
@@ -20,15 +20,15 @@ Foundational Python projects created while revising and learning Python for Arti
 | 10 | Student progress tracker |OOP (Classes, Objects, Inheritance) |
 | 11 | Student Record Manager |All concepts. |
 ---
-## 🎯 Purpose
+## Purpose
 
 This repository is part of my journey to become an **AI Developer**.  
 Each day focuses on strengthening Python programming fundamentals — the foundation for Machine Learning, Deep Learning, and AI.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Abdul Rehman
 
-⭐ Star this repo if you find it inspiring or helpful!
+Star this repo if you find it inspiring or helpful!
